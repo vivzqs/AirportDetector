@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\segm">
+      <UniqueIdentifier>{893ae7e3-63b6-4b40-89ec-b33ea898b04b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\edge">
+      <UniqueIdentifier>{e6c113e8-3094-4111-ad1e-85a1ec924e08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\prompt">
+      <UniqueIdentifier>{2cf601d1-0007-4329-9d5f-8454cfe11a05}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MeanShiftSeg.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="segm\ms.h">
+      <Filter>源文件\segm</Filter>
+    </ClInclude>
+    <ClInclude Include="segm\msImageProcessor.h">
+      <Filter>源文件\segm</Filter>
+    </ClInclude>
+    <ClInclude Include="segm\msSys.h">
+      <Filter>源文件\segm</Filter>
+    </ClInclude>
+    <ClInclude Include="segm\RAList.h">
+      <Filter>源文件\segm</Filter>
+    </ClInclude>
+    <ClInclude Include="segm\rlist.h">
+      <Filter>源文件\segm</Filter>
+    </ClInclude>
+    <ClInclude Include="segm\tdef.h">
+      <Filter>源文件\segm</Filter>
+    </ClInclude>
+    <ClInclude Include="prompt\defs.h">
+      <Filter>源文件\prompt</Filter>
+    </ClInclude>
+    <ClInclude Include="prompt\edison.h">
+      <Filter>源文件\prompt</Filter>
+    </ClInclude>
+    <ClInclude Include="prompt\error.h">
+      <Filter>源文件\prompt</Filter>
+    </ClInclude>
+    <ClInclude Include="prompt\flags.h">
+      <Filter>源文件\prompt</Filter>
+    </ClInclude>
+    <ClInclude Include="prompt\imfilt.h">
+      <Filter>源文件\prompt</Filter>
+    </ClInclude>
+    <ClInclude Include="prompt\libppm.h">
+      <Filter>源文件\prompt</Filter>
+    </ClInclude>
+    <ClInclude Include="prompt\parser.h">
+      <Filter>源文件\prompt</Filter>
+    </ClInclude>
+    <ClInclude Include="edge\BgDefaults.h">
+      <Filter>源文件\edge</Filter>
+    </ClInclude>
+    <ClInclude Include="edge\BgEdge.h">
+      <Filter>源文件\edge</Filter>
+    </ClInclude>
+    <ClInclude Include="edge\BgEdgeDetect.h">
+      <Filter>源文件\edge</Filter>
+    </ClInclude>
+    <ClInclude Include="edge\BgEdgeList.h">
+      <Filter>源文件\edge</Filter>
+    </ClInclude>
+    <ClInclude Include="edge\BgImage.h">
+      <Filter>源文件\edge</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MeanShiftSeg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="segm\ms.cpp">
+      <Filter>源文件\segm</Filter>
+    </ClCompile>
+    <ClCompile Include="segm\msImageProcessor.cpp">
+      <Filter>源文件\segm</Filter>
+    </ClCompile>
+    <ClCompile Include="segm\msSysPrompt.cpp">
+      <Filter>源文件\segm</Filter>
+    </ClCompile>
+    <ClCompile Include="segm\RAList.cpp">
+      <Filter>源文件\segm</Filter>
+    </ClCompile>
+    <ClCompile Include="segm\rlist.cpp">
+      <Filter>源文件\segm</Filter>
+    </ClCompile>
+    <ClCompile Include="prompt\edison.cpp">
+      <Filter>源文件\prompt</Filter>
+    </ClCompile>
+    <ClCompile Include="prompt\globalFnc.cpp">
+      <Filter>源文件\prompt</Filter>
+    </ClCompile>
+    <ClCompile Include="prompt\libppm.cpp">
+      <Filter>源文件\prompt</Filter>
+    </ClCompile>
+    <ClCompile Include="prompt\parser.cpp">
+      <Filter>源文件\prompt</Filter>
+    </ClCompile>
+    <ClCompile Include="edge\BgEdge.cpp">
+      <Filter>源文件\edge</Filter>
+    </ClCompile>
+    <ClCompile Include="edge\BgEdgeDetect.cpp">
+      <Filter>源文件\edge</Filter>
+    </ClCompile>
+    <ClCompile Include="edge\BgEdgeList.cpp">
+      <Filter>源文件\edge</Filter>
+    </ClCompile>
+    <ClCompile Include="edge\BgGlobalFc.cpp">
+      <Filter>源文件\edge</Filter>
+    </ClCompile>
+    <ClCompile Include="edge\BgImage.cpp">
+      <Filter>源文件\edge</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
